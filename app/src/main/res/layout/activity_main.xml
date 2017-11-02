@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titleView1"
+        android:clipToPadding="false"
+        android:fillViewport="false"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="16dp"
+            android:paddingBottom="16dp"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/icon"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="48dp"
+                android:layout_marginTop="48dp"
+                android:src="@drawable/bt_dongker" />
+
+            <Button
+                android:id="@+id/materi"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:background="@drawable/bt_merah"
+                android:text="Materi Tajwid"
+                android:textSize="16sp"
+                android:textColor="#FAFAFA"
+                android:onClick="menuMateri" />
+
+            <Button
+                android:id="@+id/quiz"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="18dp"
+                android:background="@drawable/bt_hijau"
+                android:text="Quiz Tajwid"
+                android:textSize="16sp"
+                android:textColor="#FAFAFA"
+                android:onClick="menuQuiz" />
+
+            <Button
+                android:id="@+id/about"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="18dp"
+                android:background="@drawable/bt_laut"
+                android:text="About"
+                android:textSize="16sp"
+                android:textColor="#FAFAFA"
+                android:onClick="menuAbout" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

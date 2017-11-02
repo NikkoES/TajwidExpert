@@ -1,0 +1,135 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/titleView1"
+        android:padding="8dp"
+        android:clipToPadding="false"
+        android:fillViewport="false"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/judul_teori"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="Dasar Hukum"
+                android:textStyle="bold"
+                android:textColor="@color/t_black"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/isi_teori"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/t_black"
+                android:text="Menurut arti secara Bahasa ilmu tajwid adalah memperelokkan atau memperindah sesuatu. Sedangkan menurut istilah, tajwid adalah melafadzkan setiap huruf dari makhrajnya secara benar serta memenuhi hak-hak huruf baik dari segi sifat lazimah atau sifat aridzahnya."
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="8dp"
+                android:padding="2dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/judul_huruf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="Huruf Tajwid"
+                    android:textStyle="bold"
+                    android:textColor="#ffffff"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:background="@color/b_subtitle" />
+
+                <TextView
+                    android:id="@+id/isi_huruf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp"
+                    android:text="أَوْ زِدْ عَلَيْهِ وَرَتِّلِ الْقُرْآنَ تَرْتِيلًا"
+                    android:textStyle="bold"
+                    android:textAppearance="?android:textAppearanceLarge"
+                    android:background="@color/b_isi" />
+
+                <TextView
+                    android:id="@+id/judul_contoh"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:padding="8dp"
+                    android:text="Contoh"
+                    android:textStyle="bold"
+                    android:textColor="#ffffff"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:background="@color/b_subtitle" />
+
+                <TextView
+                    android:id="@+id/isi_contoh"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp"
+                    android:text="أَوْ زِدْ عَلَيْهِ وَرَتِّلِ الْقُرْآنَ تَرْتِيلًا"
+                    android:textStyle="bold"
+                    android:textAppearance="?android:textAppearanceLarge"
+                    android:background="@color/b_isi" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="8dp"
+                    android:background="@color/b_audio"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:paddingTop="4dp"
+                        android:text="AUDIO"
+                        android:textStyle="bold"
+                        android:textColor="@color/b_isi"
+                        android:textAppearance="?android:textAppearanceLarge" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:gravity="center_horizontal" >
+
+                        <Button
+                            android:id="@+id/play"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="PLAY" />
+
+                        <Button
+                            android:id="@+id/stop"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="STOP" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

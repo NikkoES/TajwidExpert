@@ -1,0 +1,214 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/titleView1"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/b_title">
+
+        <ImageButton
+            android:id="@+id/back"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/back"
+            android:background="@null"/>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="72dp"
+            android:layout_marginTop="16dp"
+            android:layout_toRightOf="@+id/back"
+            android:text="Materi Tajwid"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titleView1"
+        android:clipToPadding="false"
+        android:fillViewport="false"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="16dp"
+            android:paddingBottom="16dp"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/materi1"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:background="@drawable/bt_stabilo"
+                android:text="Ilmu Tajwid"
+                android:textSize="16sp"
+                android:textColor="#FAFAFA"
+                android:onClick="menuMateri1" />
+
+            <Button
+                android:id="@+id/materi2"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="18dp"
+                android:background="@drawable/bt_langit"
+                android:text="Bacaan Al-Qur'an"
+                android:textSize="16sp"
+                android:textColor="#FAFAFA"
+                android:onClick="menuMateri2" />
+
+            <Button
+                android:id="@+id/materi3"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="18dp"
+                android:background="@drawable/bt_ungu"
+                android:text="Makhorijul Huruf"
+                android:textSize="16sp"
+                android:textColor="#FAFAFA"
+                android:onClick="menuMateri3" />
+
+            <Button
+                android:id="@+id/materi4"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="18dp"
+                android:background="@drawable/bt_dongker"
+                android:text="Sifat-sifat huruf"
+                android:textSize="16sp"
+                android:textColor="#FAFAFA"
+                android:onClick="menuMateri4" />
+
+            <Button
+                android:id="@+id/materi5"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="18dp"
+                android:background="@drawable/bt_kuning"
+                android:text="hukum nun mati/tanwin"
+                android:textSize="16sp"
+                android:textColor="#FAFAFA"
+                android:onClick="menuMateri5" />
+
+            <Button
+                android:id="@+id/materi6"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="18dp"
+                android:background="@drawable/bt_orange"
+                android:text="hukum mim mati"
+                android:textSize="16sp"
+                android:textColor="#FAFAFA"
+                android:onClick="menuMateri6" />
+
+            <Button
+                android:id="@+id/materi7"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="18dp"
+                android:background="@drawable/bt_abu"
+                android:text="hukum idgham"
+                android:textSize="16sp"
+                android:textColor="#FAFAFA"
+                android:onClick="menuMateri7" />
+
+            <Button
+                android:id="@+id/materi8"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="18dp"
+                android:background="@drawable/bt_hijau"
+                android:text="hukum mad"
+                android:textSize="16sp"
+                android:textColor="#FAFAFA"
+                android:onClick="menuMateri8" />
+
+            <Button
+                android:id="@+id/materi9"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="18dp"
+                android:background="@drawable/bt_laut"
+                android:text="hukum ra'"
+                android:textSize="16sp"
+                android:textColor="#FAFAFA"
+                android:onClick="menuMateri9" />
+
+            <Button
+                android:id="@+id/materi10"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="18dp"
+                android:background="@drawable/bt_merah"
+                android:text="hukum lam"
+                android:textSize="16sp"
+                android:textColor="#FAFAFA"
+                android:onClick="menuMateri10" />
+
+            <Button
+                android:id="@+id/materi11"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="18dp"
+                android:background="@drawable/bt_kuning"
+                android:text="hukum nun/mim tasydid"
+                android:textSize="16sp"
+                android:textColor="#FAFAFA"
+                android:onClick="menuMateri11" />
+
+            <Button
+                android:id="@+id/materi12"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="18dp"
+                android:background="@drawable/bt_dongker"
+                android:text="qalqalah"
+                android:textSize="16sp"
+                android:textColor="#FAFAFA"
+                android:onClick="menuMateri12" />
+
+            <Button
+                android:id="@+id/materi13"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="18dp"
+                android:background="@drawable/bt_langit"
+                android:text="tanda waqaf"
+                android:textSize="16sp"
+                android:textColor="#FAFAFA"
+                android:onClick="menuMateri13" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

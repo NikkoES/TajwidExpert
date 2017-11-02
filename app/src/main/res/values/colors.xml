@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--base color-->
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="tabsScrollColor">#15268b</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="t_black">#000000</color>
+    <color name="t_white">#ffffff</color>
+
+    <!--button-->
+    <color name="p_stabilo">#18BC9A</color>
+    <color name="h_stabilo">#0A9A81</color>
+    <color name="p_langit">#3298DA</color>
+    <color name="h_langit">#217AB2</color>
+    <color name="p_ungu">#9A59B5</color>
+    <color name="h_ungu">#81409A</color>
+    <color name="p_dongker">#33495E</color>
+    <color name="h_dongker">#273B46</color>
+    <color name="p_kuning">#F1C50E</color>
+    <color name="h_kuning">#BB9E12</color>
+    <color name="p_orange">#D25400</color>
+    <color name="h_orange">#B24000</color>
+    <color name="p_abu">#7E8C8C</color>
+    <color name="h_abu">#5D7165</color>
+    <color name="p_hijau">#2DCC70</color>
+    <color name="h_hijau">#289F5B</color>
+    <color name="p_laut">#2780B8</color>
+    <color name="h_laut">#206890</color>
+    <color name="p_merah">#E54C3A</color>
+    <color name="h_merah">#B33F32</color>
+    <!-- end -->
+
+    <!--isi-->
+    <color name="b_title">#3D51B4</color>
+    <color name="b_main">#FAFAFA</color>
+    <color name="b_subtitle">#32A232</color>
+    <color name="b_isi">#F5F196</color>
+    <color name="b_audio">#FB8200</color>
+    <!--end-->
+
+</resources>
